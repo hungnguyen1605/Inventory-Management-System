@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventorySystem.Application
+namespace InventorySystem.Domain.Enums
 {
-    public class Class1
+    public enum Role
     {
+        Admin,
+        Staff
     }
 }
